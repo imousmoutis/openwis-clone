@@ -6,6 +6,8 @@ git:
   depth: false
 
 before_install:
+  - openssl aes-256-cbc -K $encrypted_3e2d7896ecf2_key -iv $encrypted_3e2d7896ecf2_iv -in github_deploy_key.enc -out github_deploy_key -d
+  - openssl aes-256-cbc -K $encrypted_3e2d7896ecf2_key -iv $encrypted_3e2d7896ecf2_iv -in github_deploy_key2.enc -out github_deploy_key2 -d
   - eval "$(ssh-agent -s)"
   - chmod 600 github_deploy_key test_key2
   - ssh-add github_deploy_key test_key2
