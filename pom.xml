@@ -17,9 +17,9 @@
   </description>
 
   <scm>
-    <url>https://github.com/OpenWIS/openwis</url>
-    <connection>scm:git:ssh://git@github.com/OpenWIS/openwis.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/OpenWIS/openwis.git</developerConnection>
+    <url>https://github.com/imousmoutis/openwis-clone/</url>
+    <connection>scm:git:ssh://git@github.com/imousmoutis/openwis-clone/.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/imousmoutis/openwis-clone/.git</developerConnection>
   </scm>
 
   <organization>
