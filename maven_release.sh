@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git checkout master
-mvn --batch-mode release:prepare
+mvn --batch-mode -Pdependencies,openwis release:prepare
 
 git fetch --all
 git checkout -b develop origin/develop
