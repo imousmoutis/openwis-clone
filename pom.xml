@@ -18,8 +18,8 @@
 
   <scm>
     <url>https://github.com/imousmoutis/openwis-clone/</url>
-    <connection>scm:git:ssh://git@github.com/imousmoutis/openwis-clone/.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/imousmoutis/openwis-clone/.git</developerConnection>
+    <connection>scm:git:ssh://git@github.com/imousmoutis/openwis-clone.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/imousmoutis/openwis-clone.git</developerConnection>
   </scm>
 
   <organization>
